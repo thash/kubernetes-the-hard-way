@@ -122,7 +122,7 @@ $ for instance in worker-0 worker-1 worker-2; do
       }
     ]
   }
-  EOF
+EOF
   
   EXTERNAL_IP=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${instance}" "Name=instance-state-name,Values=running" \
   --query 'Reservations[0].Instances[0].PublicIpAddress' --output text)
