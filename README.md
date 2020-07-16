@@ -1,6 +1,6 @@
 # Kubernetes The Hard Way "on AWS"
 
-![](./docs/k8s_the_hard_way_on_aws_diagram.png)
+![](./docs/images/k8s_the_hard_way_on_aws_diagram.png)
 
 This tutorial walks you through setting up Kubernetes the hard way on AWS. Note that this repository is a fork from [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) and tweaked to use AWS instead of GCP.
 
