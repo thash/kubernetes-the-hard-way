@@ -1,11 +1,12 @@
 # Kubernetes The Hard Way "on AWS"
 
+![](./docs/k8s_the_hard_way_on_aws_diagram.png)
+
 This tutorial walks you through setting up Kubernetes the hard way on AWS. Note that this repository is a fork from [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) and tweaked to use AWS instead of GCP.
 
 This guide is not for people looking for a fully automated command to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
-
 
 
 ## Copyright
@@ -26,6 +27,7 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 * [coredns](https://github.com/coredns/coredns) v1.6.3
 * [cni](https://github.com/containernetworking/cni) v0.7.1
 * [etcd](https://github.com/coreos/etcd) v3.4.0
+
 
 ## Labs
 
